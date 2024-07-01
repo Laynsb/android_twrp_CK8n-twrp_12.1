@@ -6,8 +6,8 @@
 
 DEVICE_PATH := device/tecno/CK8n
 
-# Inherit from mt6895-common
-include device/transsion/mt6895-common/BoardConfigCommon.mk
+# Inherit from mt6893-common
+include device/transsion/mt6893-common/BoardConfigCommon.mk
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := TECNO-CK8n
